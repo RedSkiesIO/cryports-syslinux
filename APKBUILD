@@ -2,7 +2,7 @@
 # Maintainer: James Kirby <james.kirby@atlascityfinace.com>
 pkgname=syslinux
 pkgver=6.04_pre1
-pkgrel=2
+pkgrel=15
 _ver=${pkgver/_/-}
 pkgdesc="Boot loader for the Linux operating system"
 url="http://syslinux.org"
