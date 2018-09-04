@@ -1,0 +1,6 @@
+build-master:
+  stage: build
+  script:
+    - make dbuild-cryptos-syslinux-x8664
+  only:
+    - master
