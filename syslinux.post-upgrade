@@ -58,4 +58,3 @@ fi
 if [ -n "$opts" ]; then
 	sed -i -e "/^default_kernel_opts=/s|.*|default_kernel_opts=\"$opts\"|g" /etc/update-extlinux.conf
 fi
-
