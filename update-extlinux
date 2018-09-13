@@ -107,11 +107,11 @@ if [ -n "$serial_port" ]; then
 fi
 echo "DEFAULT $syslinux_menu" >> $conf.new
 echo "PROMPT 0" >> $conf.new
-echo "MENU TITLE CryptOS/$(uname -s) Boot Menu" >> $conf.new
+echo "MENU TITLE Alpine/$(uname -s) Boot Menu" >> $conf.new
 if [ "$hidden" = "1" ]; then
 	echo "MENU HIDDEN" >> $conf.new
 fi
-echo "MENU AUTOBOOT CryptOS will be booted automatically in # seconds." >> $conf.new
+echo "MENU AUTOBOOT Alpine will be booted automatically in # seconds." >> $conf.new
 echo "TIMEOUT $rtimeout" >> $conf.new
 
 lst=0
@@ -249,4 +249,3 @@ cp /usr/share/syslinux/libutil.c32 \
 case "$(stat -f -c '%T' /boot)" in
 ext*) extlinux --update /boot || [ -n "$warn_only" ];;
 esac
-
