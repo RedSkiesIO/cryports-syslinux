@@ -15,7 +15,7 @@ install="syslinux.post-upgrade"
 options="textrels"
 ldpath="/usr/share/syslinux"
 
-source="https://www.kernel.org/pub/linux/utils/boot/syslinux/Testing/${pkgver%_pre*}/syslinux-$_ver.tar.xz
+source="https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/Testing/6.04/syslinux-6.04-pre1.tar.xz
 	update-extlinux.conf
 	update-extlinux
 	"
