@@ -1,9 +1,9 @@
 # Contributor: James Kirby <james.kirby@atlascity.io>
 # Maintainer: James Kirby <james.kirby@atlascity.io>
 pkgname=syslinux
-pkgver=6.04_pre1
+pkgver=6.420
 pkgrel=420
-_ver=${pkgver/_/-}
+_ver=${'6.04_pre1'/_/-}
 pkgdesc="Boot loader for the CryptOS"
 url="http://syslinux.org"
 arch="x86 x86_64"
