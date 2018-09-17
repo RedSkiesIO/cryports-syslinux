@@ -3,7 +3,7 @@
 pkgname=syslinux
 pkgver=6.420
 pkgrel=420
-_ver="6.04_pre1"
+_ver="6.04-pre1"
 pkgdesc="Boot loader for the CryptOS"
 url="http://syslinux.org"
 arch="x86 x86_64"
